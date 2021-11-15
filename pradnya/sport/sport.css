@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cde0f0;
+}
+.name{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 6vw;
+    text-shadow: 0.5rem 0.3rem #b6aeae;
+}
+.img{
+    margin: 3rem;
+}
+#sport1{
+    height: 12vw;
+    width: 17vw;
+    position: relative;
+    opacity: 0;
+    animation: run1 1.5s;
+    border-bottom: .1rem solid black;
+    animation-fill-mode: forwards;
+    animation-delay: .9s;
+}
+@keyframes run1 {
+    0%{
+        transform: translate(-16vw,50%);
+    }
+    100%{
+        transform: translate(-16vw,0%);
+        opacity: 1;
+    }
+}
+#sport2{
+    height: 12vw;
+    width: 9vw;
+    position: relative;
+    border-bottom: .1rem solid black;
+    animation: run2 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes run2 {
+    0%{
+        transform: translate(30vw,0%);
+    }
+    100%{
+        transform: translate(15vw,0%);
+    }
+}
+#football{
+    height: 2.5vw;
+    width: 2vw;
+    border-radius: 25rem;
+    transform: translate(19vw,-60%);
+    position: relative;
+    animation: move 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    0%{
+        transform: translate(19vw,-60%);
+    }
+    50%{
+        transform: translate(-22.7vw,-400%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
+}
