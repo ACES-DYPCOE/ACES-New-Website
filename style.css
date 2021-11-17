@@ -52,6 +52,9 @@ nav ul li a{
     cursor: pointer;
 }
 @media(max-width: 767px){
+    .header{
+        min-height: 70vh;
+    }
     .logo-wrapper{  
         left: 11%;
     }
@@ -133,7 +136,7 @@ nav ul li a{
     .college-name{
         width: 70%;
         right: 80px;
-        bottom: 30%;
+        bottom: 20%;
         background: rgba(168, 163, 163, 0.3);
     }
     .college-name h1{
@@ -183,7 +186,11 @@ nav ul li a{
         align-items: center;   
     } 
     .social-media ul li {
-        font-size: 1.4px;
+        font-size: 8px;
+    }
+    .social-media ul li a{
+        margin: 0;
+        padding: 0 10px;
     }
 }
 .fa-instagram{
