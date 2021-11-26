@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{clear:both
+font-size:40;}
+
+.column{
+    width: 50%;
+    float: left;
+}
+.li{
+    font-family:"cursive";
+    font-size:28px;
+color:#000000;
+text-shadow: 0 2px 2px #00008B,
+	    -2px 5px 1px #FF69B4;
+text-align: center;
+}
+.container{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background: url("cultural1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 11vw;
+    color: black;
+    background-color: white;
+    padding: 20px 40px;
+    mix-blend-mode: screen;
+}
