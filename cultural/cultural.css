@@ -4,14 +4,14 @@ body{
     box-sizing: border-box;
 }
 .row{clear:both
-font-size:40;}
+font-size:55;}
 
 .column{
-    width: 50%;
+    width: 32%;
     float: left;
 }
 .li{
-    font-family:"cursive";
+    font-family:"Comic Sans MS";
     font-size:28px;
 color:#000000;
 text-shadow: 0 2px 2px #00008B,
