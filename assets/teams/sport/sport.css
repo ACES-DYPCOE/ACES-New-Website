@@ -1,0 +1,132 @@
+.row {
+  clear: both;
+  font-size: 40;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+.li {
+  font-family: "cursive";
+  font-size: 28px;
+  color: #000000;
+  text-shadow: 0 2px 2px #00008b, -2px 5px 1px #ff6600;
+  text-align: center;
+}
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-315deg, #20bf55 50%, #01baef 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url("ballground.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vw;
+}
+
+.name {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 6vw;
+  text-shadow: 0 2px 2px #dfdfdf, -2px 5px 1px #b8b8b8, -4px 8px 0px #979797,
+    -6px 11px 0px #747474, -8px 14px 0px #565656, -10px 17px 0px #343434,
+    -12px 20px 0px #171717, -14px 23px 0px #000;
+}
+.img {
+  margin: 3rem;
+}
+#sport1 {
+  height: 12vw;
+  width: 17vw;
+  position: relative;
+  opacity: 0;
+  animation: run1 1.5s;
+  border-bottom: 0.1rem solid black;
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+}
+@keyframes run1 {
+  0% {
+    transform: translate(-16vw, 50%);
+  }
+  100% {
+    transform: translate(-16vw, 0%);
+    opacity: 1;
+  }
+}
+#sport2 {
+  height: 12vw;
+  width: 9vw;
+  position: relative;
+  border-bottom: 0.1rem solid black;
+  animation: run2 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes run2 {
+  0% {
+    transform: translate(30vw, 0%);
+  }
+  100% {
+    transform: translate(15vw, 0%);
+  }
+}
+#football {
+  height: 2.5vw;
+  width: 2vw;
+  border-radius: 25rem;
+  transform: translate(19vw, -60%);
+  position: relative;
+  animation: move 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes move {
+  0% {
+    transform: translate(19vw, -60%);
+  }
+  50% {
+    transform: translate(-22.7vw, -400%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}

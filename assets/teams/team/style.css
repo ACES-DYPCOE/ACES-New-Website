@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.block {
+  position: relative;
+  box-sizing: border-box;
+  height: 35vh;
+  width: 18rem;
+  margin: 3%;
+  border: 2px solid black;
+  border-bottom-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  box-shadow: 0.6rem 0.6rem #e6e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 9vw;
+  width: 10vw;
+  border-radius: 50%;
+}
+.name {
+  margin-top: 2%;
+  font-family: "Irish Grover", "cursive";
+}
+.position {
+  font-family: "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
+  background-color: rgb(235, 224, 209);
+}
+.block:hover {
+  box-shadow: 1rem 0.8rem 1rem #c2c1c1;
+}
+.block:hover .icon {
+  display: inline;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin: 1%;
+  display: none;
+}
+.Iimg {
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem rgb(199, 186, 186);
+}
+.Iimg:hover {
+  filter: invert(100%);
+  box-shadow: none;
+}
+
+#block1 {
+  transform: translate(0%, -50%);
+  animation: block1A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block1A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block2 {
+  transform: translate(0%, -50%);
+  animation: block2A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block2A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block3 {
+  transform: translate(0%, -50%);
+  animation: block3A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block3A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block4 {
+  transform: translate(-10rem, 20%);
+  animation: block4A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block4A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block5 {
+  animation: block5A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block5A {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#block6 {
+  transform: translate(10rem, 20%);
+  animation: block6A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block6A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block7 {
+  transform: translate(0%, 50%);
+  animation: block7A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block7A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block8 {
+  transform: translate(0%, 50%);
+  animation: block8A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block8A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+#block9 {
+  transform: translate(0%, 50%);
+  animation: block9A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block9A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+#block10 {
+  transform: translate(-50%, 0%);
+  animation: block10A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block10A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+#block11 {
+  transform: translate(-50%, 0%);
+  animation: block11A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block11A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+.container2 {
+  height: 40vh;
+  width: 100%;
+  background-color: #f9e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link a {
+  text-decoration: none;
+  position: relative;
+  color: #801c8c;
+}
+.link {
+  font-size: 30px;
+  font-family: "Estonia", cursive;
+  padding: 0.1vw 2vw;
+  font-weight: bold;
+}
+#h {
+  font-size: 33px;
+  padding: 0.1vw 2vw;
+  text-decoration: underline;
+  color: hotpink;
+}
+.link a::after {
+  content: "";
+  width: 0%;
+  height: 0.3vw;
+  background: #f14a60;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  top: 80%;
+  transition: 0.5s;
+}
+.link a:hover::after {
+  width: 100%;
+}
