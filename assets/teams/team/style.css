@@ -175,7 +175,7 @@ body {
   }
 }
 .container2 {
-  height: 40vh;
+  height: 20vw;
   width: 100%;
   background-color: #f9e8f0;
   display: flex;
@@ -189,13 +189,13 @@ body {
   color: #801c8c;
 }
 .link {
-  font-size: 30px;
+  font-size: 2vw;
   font-family: "Estonia", cursive;
   padding: 0.1vw 2vw;
   font-weight: bold;
 }
 #h {
-  font-size: 33px;
+  font-size: 3vw;
   padding: 0.1vw 2vw;
   text-decoration: underline;
   color: hotpink;
