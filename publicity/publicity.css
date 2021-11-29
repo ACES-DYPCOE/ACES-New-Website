@@ -1,76 +1,66 @@
-.row{clear:both
-font-size:40;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<style type="text/css">
+<!--css here>
+</style>
 
-.column{
-    width: 50%;
-    float: left;
-}
-.li{
-    font-family:"Comic Sans MS";
-    font-size:30px;
-color:#FFFFFF;
-text-align: center;
-}
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-315deg, #045de9 50%, #09c6f9 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
+</head>
+<body>
+    <div class="container" id='bg'>
+        <h1 class="heading">Publicity Team</h1>
+    </div>
 
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
+<div id="div3">
+<div class="bg2">
 
-.bg3 {
-  animation-duration:5s;
-}
+<div class="row">
+    <div class="column">
+        
+        <ul align="center" class="animate__animated animate__lightSpeedInLeft" style="list-style-type:none;">
+            <div class="li">
 
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
-
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background: url(publicity2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    font-size: 8vw;
-}
-.box{
-    animation: move 0.5s;
-    animation-fill-mode: forwards;
-    color: #FFFFFF;
-}
-@keyframes move {
-    0%{
-        transform: translate(-100%,0%);
-    }
-    100%{
-        transform: translate(0%,0%);
-    }
-}
+            <li  class="line-1 anim-typewriter">Om Gawande</li>
+	<li  class="line-1 anim-typewriter">Utkarsh More</li>
+	<li  class="line-1 anim-typewriter">Sourabh Rode</li>
+	<li  class="line-1 anim-typewriter">Ateek Parida</li>
+	<li  class="line-1 anim-typewriter">Sonali Biswas</li> 
+            
+            </div>
+        </ul>
+    </div>
+</div>
+    <div class="column">
+        
+        <ul align="center" class="animate__animated animate__lightSpeedInRight" style="list-style-type:none;">
+            <div class="li">
+            <li  class="line-1 anim-typewriter">Gauri Waikar</li>
+	<li  class="line-1 anim-typewriter">Vaishnavi Barge</li>	
+                <li  class="line-1 anim-typewriter">Sapna Kul</li>
+            <li  class="line-1 anim-typewriter">Rahul Singh</li>
+            </div>
+        </ul>
+    </div>
+</div>
+<div class="column">
+        
+        <ul align="center" class="animate__animated animate__lightSpeedInRight" style="list-style-type:none;">
+            <div class="li">
+            <li  class="line-1 anim-typewriter">Vaibhav Upganlawar</li>
+            <li  class="line-1 anim-typewriter">Yash Gokakkar</li>
+            <li  class="line-1 anim-typewriter">Akash Bharati</li>
+            <li  class="line-1 anim-typewriter">Sumit Done</li>
+ </div>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
