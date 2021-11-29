@@ -1,76 +1,102 @@
-.row {
-  clear: both;
-  font-size: 40;
-}
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-.column {
-  width: 50%;
-  float: left;
+/* Global */
+html {
+  min-height: 100%;
+  overflow: hidden;
 }
-.li {
-  font-family: "Comic Sans MS";
-  font-size: 30px;
-  color: #ffffff;
-  text-align: center;
-}
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-315deg, #045de9 50%, #09c6f9 50%);
-  bottom: 0;
-  left: -50%;
-  opacity: 0.5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
-}
-
-.bg2 {
-  animation-direction: alternate-reverse;
-  animation-duration: 4s;
-}
-
-.bg3 {
-  animation-duration: 5s;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(25%);
-  }
-}
-
 body {
-  margin: 0;
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Anonymous Pro", monospace;
+  background-color: rgb(25, 25, 25);
+}
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+body {
+  background: rgb(255, 42, 161);
+  background: radial-gradient(
+    circle,
+    rgba(255, 42, 161, 0.8631827731092436) 13%,
+    rgba(221, 120, 246, 0.8799894957983193) 55%,
+    rgba(240, 255, 50, 0.9136029411764706) 83%
+  );
   padding: 0;
   box-sizing: border-box;
 }
+
+.row {
+  clear: both;
+  font-size: 60;
+}
+
+.column {
+  width: 30%;
+  float: left;
+}
+.li {
+  font-family: "Georgia";
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 0 2px 2px #fe3f7c, -2px 5px 1px #fff4f8;
+  text-align: center;
+  padding: auto;
+}
 .container {
-  height: 60vh;
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  background: url(publicity.png);
+  height: 60vh;
+  background: url("pol.jpeg") no-repeat;
+  border-radius: 20px;
+  opacity: 0.8;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 8vw;
 }
-.box {
-  animation: move 0.5s;
-  animation-fill-mode: forwards;
-  color: #ffffff;
-}
-@keyframes move {
-  0% {
-    transform: translate(-100%, 0%);
-  }
-  100% {
-    transform: translate(0%, 0%);
-  }
+
+.heading {
+  position: absolute;
+  font-size: 11vw;
+  color: black;
+  background-color: white;
+  padding: 20px 40px;
+  mix-blend-mode: screen;
 }
