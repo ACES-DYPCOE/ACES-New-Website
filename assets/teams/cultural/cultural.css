@@ -14,7 +14,7 @@ body {
 }
 .li {
   font-family: "Comic Sans MS";
-  font-size: 28px;
+  font-size: 2vw;
   color: #000000;
   text-shadow: 0 2px 2px #00008b, -2px 5px 1px #ff69b4;
   text-align: center;
@@ -41,3 +41,6 @@ body {
   padding: 20px 40px;
   mix-blend-mode: screen;
 }
+.name{
+      padding: 2% 2%;
+  }
