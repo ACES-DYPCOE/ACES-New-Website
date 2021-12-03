@@ -1,8 +1,17 @@
 body{
+
     margin: 0;
-    padding: 0;
+ width: 100%;
+    height: 60vh;
+background: rgb(255,42,161);
+background: radial-gradient(circle, rgba(255,42,161,0.8631827731092436) 13%, rgba(221,120,246,0.8799894957983193) 55%, rgba(240,255,50,0.9136029411764706) 83%);
+  padding: 0;
+background: url("stage2.jpg");
     box-sizing: border-box;
+    
 }
+
+
 .row{clear:both
 font-size:55;}
 
@@ -12,10 +21,11 @@ font-size:55;}
 }
 .li{
     font-family:"Comic Sans MS";
-    font-size:28px;
-color:#000000;
-text-shadow: 0 2px 2px #00008B,
-	    -2px 5px 1px #FF69B4;
+    font-size:32px;
+color:#FF2825;
+text-shadow: -4px 2px 2px #FFFFFF, 
+	     2px 5px 1px #000000 ,
+	 -6px 2px 2px #A00000 ;
 text-align: center;
 }
 .container{
