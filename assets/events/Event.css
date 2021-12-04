@@ -1,0 +1,345 @@
+.eventimg img{
+  width:100%;
+  height:100%;
+  border: white;
+  border-style: solid;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  height:480px;
+}
+
+.grid-container > div {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+
+
+.h-event{
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: black;
+} 
+.flip-card-tech {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left: 20px;
+  margin-top: -13%;
+}
+
+.flip-card-inner-tech {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.flip-card-tech:hover .flip-card-inner-tech {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-tech, .flip-card-back-tech {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-tech {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back-tech {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.tech{
+  margin-left: 30px;
+  color: chartreuse;
+}
+.flip-card-sport {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  /* perspective: 1000px;
+  margin-left: 682px; */
+  margin-top: -13%;
+}
+
+.flip-card-inner-sport {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-sport:hover .flip-card-inner-sport {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-sport, .flip-card-back-sport {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-sport {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back-sport {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-cultural {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  /* perspective: 1000px;
+  margin-left: 346px; */
+  margin-top: -13%;
+}
+
+.flip-card-inner-cultural {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-cultural:hover .flip-card-inner-cultural {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-cultural, .flip-card-back-cultural {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-cultural {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back-cultural {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-publicity {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  /* perspective: 1000px;
+  margin-left: 1010px; */
+  margin-top: -13%;
+}
+
+.flip-card-inner-publicity {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-publicity:hover .flip-card-inner-publicity {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-publicity, .flip-card-back-publicity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-publicity {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back-publicity {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+button {
+  font-weight:160;
+  border: solid 2px black;
+  outline: 0;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.08rem;
+  background-color: white;
+  border-radius: 0.35rem;
+  position: relative;
+  cursor: pointer;
+  margin-left: 22px;
+}
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+  z-index: -1;
+  border-radius: 0.35rem;
+  border: solid 2px black;
+  transition: all 0.3s ease-in-out;
+}
+button.style-4::after {
+  border: 0;
+  box-shadow: 0px 0px 0px 2px black;
+  width: calc(100%);
+  height: calc(100%);
+}
+/* button.style-4:hover::after {
+  top: -0.5rem;
+  left: -0.5rem;
+  width: calc(100% + 0.5rem * 2);
+  height: calc(100% + 0.5rem * 2);
+} */
+#b3{
+  margin-left: 500px;
+}
+.other1{
+  border: white;
+  border-style: solid;
+  border-width: 15px;
+  margin-top: 30px;
+  margin-left: 5%;
+  width: 370px;
+  height: 230px;
+}
+.other1:hover{
+  border-color: tomato;
+}
+.other-div{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: fit-content;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.main-div{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media (min-width: 768px) and (max-width: 1346px)  {
+      .main-div{
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+      width: auto;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .other-div{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  /*height: 630px;*/
+  /*width: auto;*/
+}
+.other1{
+  border: white;
+  border-style: solid;
+  border-width: 15px;
+  margin-top: 30px;
+  margin-left: 5%;
+  width: 370px;
+  height: 230px;
+}
+
+}
+@media (min-width: 300px){ 
+ .main-div{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 500px;
+ /*  width: fit-content; */
+  padding-right: 5%;
+  padding-right: 5%;
+
+}
+}
+   
+   @media (min-width: 320px) and (max-width: 1200px)  {
+   .item3 {
+    grid-column: 1 / span 1;
+  }
+  /* .flip-card-cultural{
+    margin-top: 0px;
+  } */
+   }
+
+   @media (min-width: 900px) and (max-width: 1200px)  {
+    .main-div{
+     
+      height: 1000px;
+      
+    
+    
+    }
+    }
+   
+
+
+   
