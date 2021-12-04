@@ -14,4 +14,3 @@ function randombg(){
     bg.style.backgroundSize = 'cover';
 }
 setInterval(randombg, 1000);
-
