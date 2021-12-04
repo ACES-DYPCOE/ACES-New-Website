@@ -1,46 +1,51 @@
-body {
-  margin: 0;
+body{
+
+    margin: 0;
+ width: 100%;
+    height: 60vh;
+background: rgb(255,42,161);
+background: radial-gradient(circle, rgba(255,42,161,0.8631827731092436) 13%, rgba(221,120,246,0.8799894957983193) 55%, rgba(240,255,50,0.9136029411764706) 83%);
   padding: 0;
-  box-sizing: border-box;
-}
-.row {
-  clear: both;
-  font-size: 55;
+background: url("cultural6.jpg");
+    box-sizing: border-box;
+    
 }
 
-.column {
-  width: 32%;
-  float: left;
+
+.row{clear:both;
+font-size:55;}
+
+.column{
+    width: 32%;
+    float: left;
 }
-.li {
-  font-family: "Comic Sans MS";
-  font-size: 2vw;
-  color: #000000;
-  text-shadow: 0 2px 2px #00008b, -2px 5px 1px #ff69b4;
-  text-align: center;
+.li{
+    font-family:"Comic Sans MS";
+    font-size:32px;
+color:#FF2825;
+text-shadow: -4px 2px 2px #FFFFFF, 
+	     2px 5px 1px #000000 ,
+	 -6px 2px 2px #A00000 ;
+text-align: center;
 }
-.container {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60vh;
-  background: url("cultural1.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.4s ease;
+.container{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background: url("cultural1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.heading {
-  font-size: 11vw;
-  color: black;
-  background-color: white;
-  padding: 20px 40px;
-  mix-blend-mode: screen;
+.heading{
+    font-size: 11vw;
+    color: black;
+    background-color: white;
+    padding: 20px 40px;
+    mix-blend-mode: screen;
 }
-.name{
-      padding: 2% 2%;
-  }
