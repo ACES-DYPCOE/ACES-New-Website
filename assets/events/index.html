@@ -2,11 +2,23 @@
 
 <head>
     <link href="Event.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">    
     <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     </link>
 </head>
 
 <body>
+    <div id="circularMenu" class="circular-menu">
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+          <i class="fa fa-plus"></i>
+        </a>
+        <menu class="items-wrapper">
+          <a href="https://aces-dypcoe.github.io/ACES-New-Website/" class="menu-item">HOME</a>
+          <a href="../teams/team/index.html" class="menu-item">TEAM</a>
+          <a href="../events/index.html" class="menu-item">EVENTS</a>
+          <a href="../contact/index.html" class="menu-item">CONTACT</a>
+        </menu>  
+      </div>
 
     <div>
         <h1 class="h-event">
@@ -20,7 +32,7 @@
             </h5>
             <div class="flip-card-inner-tech">
                 <div class="flip-card-front-tech eventimg">
-                    <img alt="Avatar" src="tech.jpg" style="">
+                    <img alt="Avatar" src="tech.jpg">
                     </img>
                 </div>
                 <div class="flip-card-back-tech">
