@@ -187,6 +187,16 @@ body {
     transform: translate(0%, 0%);
   }
 }
+#block12 {
+  transform: translate(-50%, 0%);
+  animation: block12A 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes block12A {
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
 .container2 {
   height: 23vw;
   width: 100%;
