@@ -21,12 +21,15 @@ font-size:55;}
 }
 .li{
     font-family:"Comic Sans MS";
-    font-size:32px;
+    font-size:2.5vw;
 color:#FF2825;
 text-shadow: -4px 2px 2px #FFFFFF, 
 	     2px 5px 1px #000000 ,
 	 -6px 2px 2px #A00000 ;
 text-align: center;
+}
+.name{
+	padding: 2% 2%;
 }
 .container{
     position: relative;
