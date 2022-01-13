@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORTS TEAM ACES</title>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<style type="text/css">
+.row{clear:both
+font-size:40;}
+
+.column{
+    width: 50%;
+    float: left;
+}
+.li{
+    font-family:"cursive";
+    font-size:28px;
+color:#000000;
+text-shadow: 0 2px 2px #00008B,
+	    -2px 5px 1px #ff6600;
+text-align: center;
+}
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-315deg, #20bf55 50%, #01baef 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(ballground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+}
+
+.name{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 6vw;
+    text-shadow: 0 2px 2px #dfdfdf, 
+      -2px 5px 1px #b8b8b8, 
+      -4px 8px 0px #979797, 
+      -6px 11px 0px #747474,
+      -8px 14px 0px #565656,
+      -10px 17px 0px #343434,
+      -12px 20px 0px #171717,
+      -14px 23px 0px #000;
+
+}
+.img{
+    margin: 3rem;
+}
+#sport1{
+    height: 12vw;
+    width: 17vw;
+    position: relative;
+    opacity: 0;
+    animation: run1 1.5s;
+    border-bottom: .1rem solid black;
+    animation-fill-mode: forwards;
+    animation-delay: .9s;
+}
+@keyframes run1 {
+    0%{
+        transform: translate(-16vw,50%);
+    }
+    100%{
+        transform: translate(-16vw,0%);
+        opacity: 1;
+    }
+}
+#sport2{
+    height: 12vw;
+    width: 9vw;
+    position: relative;
+    border-bottom: .1rem solid black;
+    animation: run2 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes run2 {
+    0%{
+        transform: translate(30vw,0%);
+    }
+    100%{
+        transform: translate(15vw,0%);
+    }
+}
+#football{
+    height: 2.5vw;
+    width: 2vw;
+    border-radius: 25rem;
+    transform: translate(19vw,-60%);
+    position: relative;
+    animation: move 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    0%{
+        transform: translate(19vw,-60%);
+    }
+    50%{
+        transform: translate(-22.7vw,-400%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+  <!--css here-->
+  </style>
+</head>
+<body>
+    <div class="box">
+        <div class="name">Sport Team</div>
+        <div class="img">
+            <img src="sport1.png" alt="loading" id="sport1">
+            <img src="football.jpg" alt="loading"id="football">
+            <img src="sport2.png" alt="loading" id="sport2">
+        </div>
+    </div>
+  </style>
+</head>
+<body>
+ <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+  
+</div>
+   
+<div id="div3">
+<div class="row">
+    <div class="column">
+        
+        <ul align="center" class="animate__animated animate__lightSpeedInLeft" style="list-style-type:none;">
+            <div class="li">
+
+            <li>Chandan Zope</li>
+            <li>Jatin Oza</li>
+            <li>Saaniya Syed</li>
+            <li>Viraj Sonagra</li>
+            <li>Pranjal Wagh</li>
+            <li>Suraj Nanavare</li>
+            </div>
+        </ul>
+    </div>
+</div>
+    <div class="column">
+        
+        <ul align="center" class="animate__animated animate__lightSpeedInRight" style="list-style-type:none;">
+            <div class="li">
+            <li>Divya Rathod</li>
+            <li>Yash Lomate</li>
+            <li>Shreyash Chikte</li>
+            <li>Atharva Sambhus</li>
+            <li>Shantanu Shinde</li>
+            <li>Gauri Pathak</li>
+             <li>Rushikesh Rathod</li>	
+            </div>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
