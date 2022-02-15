@@ -1,0 +1,218 @@
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Antic+Slab&family=Irish+Grover&family=M+PLUS+Rounded+1c:wght@100&family=Nanum+Myeongjo&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+.row{clear:both
+font-size:40;}
+
+.column{
+    width: 50%;
+    float: left;
+}
+
+.li{
+    font-family:"French Script MT";
+    font-size: 3vw;
+color:#FFFFFF;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: #6617cb;
+background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+    
+}
+.name{
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("technical3.jpg");
+}
+.bold{
+    color: #FFFFFF;
+    display: inline;
+    font-size: 8vw;
+    font-family: 'Irish Grover', cursive;
+}
+
+#letter1{                                                          /*   T   */                                                        
+    transform: translate(60rem,100%);
+    animation: letter1A 1s;
+    animation-fill-mode: forwards;
+}                                                                               
+@keyframes letter1A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter2{                                                           /*   e   */
+    transform: translate(60rem,0%);                                                          
+    animation: letter2A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter2A {
+    0%{
+        transform: scale(.2);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#letter3{                                                         /*    c   */
+    transform: translate(60rem,0%);
+    animation: letter3A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter3A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter4{                                                          /*    h   */                                                        
+    animation: letter4A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter4A {
+    0%{
+        transform: translate(-25rem,0%);
+    }
+    30%{
+        transform: translate(0%,-35%);
+    }
+    60%{
+        transform: translate(50rem,0%);
+    }
+    85%{
+        transform: translate(0%,35%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter5{                                                           /*    n   */
+    transform: translate(-40rem,50%);
+    animation: letter5A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter5A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter6{                                                           /*    i   */
+    animation: letter6A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter6A {
+    0%{
+        transform: translate(0%,80%);
+    }
+    50%{
+        transform: translate(0%,0%);
+    }
+    75%{
+        transform: translate(0%,80%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter7{                                                           /*    c   */
+    animation: letter7A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter7A {
+    0%{
+        transform: skew(30deg,10deg);
+    }
+    50%{
+        transform: skew(50deg,40deg);
+    }
+    100%{
+        transform: skew(0deg,0deg);
+    }
+}
+
+#letter8{                                                           /*    a   */
+    transform: translate(-19rem,100%);
+    animation: letter8A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter8A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter9{                                                           /*    l   */
+    animation: letter9A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter9A {
+    0%{
+        transform: scale(.2);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#letter10{                                                           /*    T   */
+    transform: translate(-30rem,-50%);
+    animation: letter10A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter10A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter11{                                                           /*    e   */
+    transform: translate(-10rem,-30%);
+    animation: letter11A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter11A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+
+#letter12{                                                           /*    a   */
+    animation: letter12A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter12A {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#letter13{                                                           /*    m   */
+    transform: translate(-40rem,50%);
+    animation: letter13A 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letter13A {
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+.nm{
+    padding: 2% 2%;
